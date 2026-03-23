@@ -29,11 +29,8 @@ announcements:
 
 Email: fanl [at] njupt.edu.cn
 
-Long Fan is currently a Lecturer at the School of Computer Science at Nanjing University of Posts and Telecommunications (NJUPT).
-He received his Ph.D. degree from the School of Computer Science and Technology at Nanjing University (NJU), advised by [Prof. Lei Xie](https://cs.nju.edu.cn/lxie/).
-From 2024 to 2025, he was a Visiting Researcher at the College of Computing and Data Science, Nanyang Technological University (NTU), working with [Prof. Jun Luo](https://personal.ntu.edu.sg/junluo/).
-
-His research interests lie in the intersection of **Pervasive Computing**, **Wireless Sensing** and **Mobile Computing**.
+Long Fan is currently a Lecturer at the School of Computer Science, Nanjing University of Posts and Telecommunications (NJUPT), where he conducts research on wireless sensing as a member of [Prof. Fu Xiao](https://yjs.njupt.edu.cn/dsgl/nocontrol/college/dsfcxq.htm?dsJbxxId=9B9D05C52A832DCFE050007F01006EFE)’s research group.
+He received his Ph.D. degree from the School of Computer Science and Technology at Nanjing University (NJU), under the supervision of [Prof. Lei Xie](https://cs.nju.edu.cn/lxie/). From 2024 to 2025, he was a Visiting Researcher at the College of Computing and Data Science, Nanyang Technological University (NTU), where he worked with [Prof. Jun Luo](https://personal.ntu.edu.sg/junluo/). His research interests lie in the intersection of **Pervasive Computing**, **Wireless Sensing** and **Mobile Computing**.
 
 <!-- He is dedicated to transforming pervasive wireless signals into high-precision digital perceptions of the physical world. Currently, his work focuses on:
 
