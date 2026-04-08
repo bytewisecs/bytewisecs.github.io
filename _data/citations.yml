@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-23'
+  last_updated: '2026-04-08'
 papers:
   L1arysgAAAAJ:4TOpqqG69KYC:
     citations: 0
@@ -26,7 +26,7 @@ papers:
     title: Multi-Modal based 3D Localization via the Channel Adjustment LED-tag
     year: '2025'
   L1arysgAAAAJ:Se3iqnhoufwC:
-    citations: 39
+    citations: 40
     title: 'mmMic: Multi-modal speech recognition based on mmwave radar'
     year: '2023'
   L1arysgAAAAJ:ULOm3_A8WrAC:
@@ -46,7 +46,7 @@ papers:
     title: 'CoSense: Bridging Real-Time Performance and Fine-Grained Detail in mmWave Sensing'
     year: '2026'
   L1arysgAAAAJ:d1gkVwhDpl0C:
-    citations: 48
+    citations: 49
     title: An overview of speech endpoint detection algorithms
     year: '2020'
   L1arysgAAAAJ:hqOjcs7Dif8C:
