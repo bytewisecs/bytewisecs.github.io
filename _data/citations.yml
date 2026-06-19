@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-29'
+  last_updated: '2026-06-19'
 papers:
   L1arysgAAAAJ:4TOpqqG69KYC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: 'Deep topology network: A framework based on feedback adjustment learning rate for image classification'
     year: '2019'
   L1arysgAAAAJ:KlAtU1dfN6UC:
-    citations: 1
+    citations: 2
     title: 'Sense with polyface mirror: Enhancing Wi-Fi sensing diversity via programmable metasurfaces'
     year: '2026'
   L1arysgAAAAJ:MXK_kJrjxJIC:
@@ -38,7 +38,7 @@ papers:
     title: 'BoneSE: Bone Conduction-Assisted Speech Enhancement Based on COTS Earphone'
     year: '2025'
   L1arysgAAAAJ:Zph67rFs4hoC:
-    citations: 2
+    citations: 3
     title: 'Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable Intelligent Surfaces'
     year: '2026'
   L1arysgAAAAJ:_kc_bZDykSQC:
