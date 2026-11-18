@@ -18,12 +18,14 @@ module ExternalPosts
           elsif src['posts']
             fetch_from_urls(site, src)
           end
+        rescue Timeout::Error, SocketError, SystemCallError, OpenSSL::SSL::SSLError, HTTParty::Error => e
+          Jekyll.logger.warn 'External posts:', "Skipping #{src['name']} (#{e.class}: #{e.message})"
         end
       end
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
+      xml = fetch_body(src['rss_url'])
       return if xml.nil?
       begin
         feed = Feedjira.parse(xml)
@@ -84,6 +86,8 @@ module ExternalPosts
       src['posts'].each do |post|
         puts "...fetching #{post['url']}"
         content = fetch_content_from_url(post['url'])
+        next unless content
+
         content[:published] = parse_published_date(post['published_date'])
         create_document(site, src['name'], post['url'], content, src)
       end
@@ -101,7 +105,9 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
-      html = HTTParty.get(url).body
+      html = fetch_body(url)
+      return if html.nil?
+
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''
@@ -118,6 +124,16 @@ module ExternalPosts
         summary: description
         # Note: The published date is now added in the fetch_from_urls method.
       }
+    end
+
+    def fetch_body(url)
+      response = HTTParty.get(url, timeout: 15)
+      unless response.success?
+        Jekyll.logger.warn 'External posts:', "Skipping #{url} (HTTP #{response.code})"
+        return
+      end
+
+      response.body
     end
 
   end
