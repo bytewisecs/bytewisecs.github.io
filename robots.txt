@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://fanl0228.github.io/sitemap.xml
+Sitemap: https://bytewisecs.github.io/sitemap.xml
